@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(./img55.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+       
+}
+h1{
+    font-size: 10vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #2271ae;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #0c0c0c;
+    font-size: 8vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+.color-o {
+    color: #b0413e;
+}
+.color-x {
+    color: #c5c225;
+}
+
+/*----------------------*/
+
+
+@media (max-width:700px){
+
+    .box{
+        width: 15vmin;
+        height: 15vmin;
+        font-size: 9vmin;
+    }
+    #reset-btn{
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+        
+    }
+    #msg{
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+    h1{
+        font-size: 2.5rem;
+           
+    }
+    .msg-container{
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+
+}
